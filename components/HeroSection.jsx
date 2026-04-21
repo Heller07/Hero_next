@@ -14,11 +14,12 @@ export default function HeroSection() {
   className="
     absolute
     top-[92px]
-    left-0
 
-    w-[1440px]
-    h-0
+    left-1/2
+    -translate-x-1/2
 
+    w-screen
+    h-px
     border-t
     border-t-[#2A3C3A]
 
@@ -47,7 +48,12 @@ export default function HeroSection() {
         </div>
 
         {/* bottom divider where BOTH panels end */}
-        <div className="absolute top-[733px] left-0 w-full h-px  border-t
+        <div className="absolute top-[733px] left-1/2
+    -translate-x-1/2
+
+    w-screen
+    h-px
+    border-t
     border-t-[#2A3C3A]
 
     shadow-[0_1px_0_#000000]
