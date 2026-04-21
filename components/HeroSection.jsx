@@ -10,7 +10,23 @@ export default function HeroSection() {
         <Navbar />
 
         {/* top divider */}
-        <div className="absolute top-[92px] left-0 w-full h-px bg-[#2A3C3A]" />
+        <div
+  className="
+    absolute
+    top-[92px]
+    left-0
+
+    w-[1440px]
+    h-0
+
+    border-t
+    border-t-[#2A3C3A]
+
+    shadow-[0_1px_0_#000000]
+
+    z-40
+  "
+/>
 
         {/* left + right panels */}
         <div
@@ -31,7 +47,12 @@ export default function HeroSection() {
         </div>
 
         {/* bottom divider where BOTH panels end */}
-        <div className="absolute top-[733px] left-0 w-full h-px bg-[#2A3C3A]" />
+        <div className="absolute top-[733px] left-0 w-full h-px  border-t
+    border-t-[#2A3C3A]
+
+    shadow-[0_1px_0_#000000]
+
+    z-40" />
 
       </div>
     </section>
